@@ -1,0 +1,82 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.83);
+
+}
+@font-face{
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+body{
+	background-color: #efefef;
+	font-family: Roboto;
+}
+.photo{
+	background-color: orange;
+	 height: calc((35vw - 40px) / 16 * 9);
+ width:calc((50% - 40px));
+	margin: 20px;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1.0);
+
+}
+
+.photo:active{
+	transform: rotate(34deg) scale(0.05);
+	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
+}
+
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+}
+
+.photo1{
+	background-image: url(../img/image1.jpg);}
+.photo2{
+	background-image: url(../img/image2.jpg);}
+.photo3{
+	background-image: url(../img/image3.jpg);}
+	.photo4{
+	background-image: url(../img/image4.jpg);}
+	.photo5{
+	background-image: url(../img/image5.jpg);}
+	.photo6{
+	background-image: url(../img/image6.jpg);}
+	.photo7{
+	background-image: url(../img/image7.jpg);}
+	.photo8{
+	background-image: url(../img/image8.jpg);}
+	.photo9{
+	background-image: url(../img/image9.jpg);}
+	.photo10{
+	background-image: url(../img/image10.jpg);}
+	.photo11{
+	background-image: url(../img/image11.jpeg);}
+	.photo12{
+	background-image: url(../img/image12.jpg);}
+
+    
+}
+
+
+
+
+
+
+
+
